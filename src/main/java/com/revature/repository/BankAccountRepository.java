@@ -1,5 +1,7 @@
 package com.revature.repository;
 
+import java.util.Set;
+
 import com.revature.model.BankAccount;
 
 /**
@@ -16,4 +18,14 @@ public interface BankAccountRepository {
 	 */
 	
 	
+	public BankAccount findByFirstName(String firstName);
+
+	/**
+	 * Select all celebrities from the database.
+	 */
+	
+	public Set<BankAccount> selectAll();
 }
+
+	
+

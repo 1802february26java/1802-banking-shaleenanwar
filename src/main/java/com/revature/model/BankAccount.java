@@ -11,6 +11,19 @@ public class BankAccount {
 	public BankAccount() {
 		
 	}
+	
+
+	public BankAccount(long accountNumber, String firstName, String lastName, String userName, String passWord,
+			double balance) {
+		this.accountNumber = accountNumber;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.userName = userName;
+		this.passWord = passWord;
+		this.balance = balance;
+	}
+
+
 
 	public long getAccountNumber() {
 		return accountNumber;
@@ -59,6 +72,8 @@ public class BankAccount {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
+	
+
 
 	@Override
 	public int hashCode() {

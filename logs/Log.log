@@ -1,0 +1,119 @@
+2018-03-10 18:17:32 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 18:36:03 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 18:37:47 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 18:49:03 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 18:50:00 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 18:51:32 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 18:55:08 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 19:09:58 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 19:40:21 ERROR ConnectionUtil:36 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myassignments.cmk37qx2dyp6.us-east-1.rds.amazonaws.com
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:20)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:33)
+2018-03-10 19:43:17 ERROR ConnectionUtil:39 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myassignments.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:23)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:36)
+2018-03-10 19:47:52 ERROR ConnectionUtil:39 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myassignments.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:23)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:36)
+2018-03-10 19:47:57 ERROR ConnectionUtil:39 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myassignments.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:23)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:36)
+2018-03-10 19:55:25 ERROR ConnectionUtil:43 - Couldn't connect to the database
+java.sql.SQLException: No suitable driver found for jdbc:oracle:thin:@myrevaturerds.cmk37qx2dyp6.us-east-1.rds.amazonaws.com:1521:ORCL
+	at java.sql.DriverManager.getConnection(DriverManager.java:689)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:27)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:40)
+2018-03-10 20:41:54 INFO  ConnectionUtil:41 - Connection successful
+2018-03-11 15:53:05 INFO  ConnectionUtil:38 - Connection successful
+2018-03-12 10:26:16 INFO  ConnectionUtil:38 - Connection successful
+2018-03-12 10:26:46 TRACE BankAccountRepositoryJdbc:64 - Inserting account with stored procedure.
+2018-03-12 10:26:50 ERROR BankAccountRepositoryJdbc:82 - Exception thrown while inserting new Account with stored procedure
+java.sql.SQLException: Missing IN or OUT parameter at index:: 6
+	at oracle.jdbc.driver.OraclePreparedStatement.processCompletedBindRow(OraclePreparedStatement.java:1878)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3815)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.BankAccountRepositoryJdbc.insertProcedure(BankAccountRepositoryJdbc.java:77)
+	at com.revature.repository.BankAccountRepositoryJdbc.main(BankAccountRepositoryJdbc.java:155)
+2018-03-12 10:26:50 INFO  BankAccountRepositoryJdbc:155 - false
+2018-03-12 10:28:54 TRACE BankAccountRepositoryJdbc:64 - Inserting account with stored procedure.
+2018-03-12 10:28:56 ERROR BankAccountRepositoryJdbc:83 - Exception thrown while inserting new Account with stored procedure
+java.sql.SQLException: ORA-06550: line 1, column 7:
+PLS-00201: identifier 'INSERT_BANKACCOUNT' must be declared
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361)
+	at com.revature.repository.BankAccountRepositoryJdbc.insertProcedure(BankAccountRepositoryJdbc.java:78)
+	at com.revature.repository.BankAccountRepositoryJdbc.main(BankAccountRepositoryJdbc.java:156)
+2018-03-12 10:28:56 INFO  BankAccountRepositoryJdbc:156 - false
+2018-03-12 14:54:37 TRACE BankAccountRepositoryJdbc:129 - Getting all Users
+2018-03-12 14:54:42 TRACE BankAccountRepositoryJdbc:140 - Query executed successfully.
+2018-03-12 14:54:42 TRACE BankAccountRepositoryJdbc:143 - CustID inserted correctly
+2018-03-12 15:04:35 TRACE BankAccountRepositoryJdbc:129 - Getting all Users
+2018-03-12 15:04:37 TRACE BankAccountRepositoryJdbc:140 - Query executed successfully.

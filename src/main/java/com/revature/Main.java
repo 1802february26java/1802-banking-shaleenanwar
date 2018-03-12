@@ -1,5 +1,8 @@
 package com.revature;
 
+import com.revature.controller.LogIn;
+import com.revature.exception.InvalidLoginException;
+
 /** 
  * Create an instance of your controller and launch your application.
  * 
@@ -7,7 +10,8 @@ package com.revature;
  */
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InvalidLoginException {
 
+		long account = LogIn.login();
 	}
 }
