@@ -2,6 +2,7 @@ package com.revature.repository;
 
 import java.util.Set;
 
+import com.revature.exception.InvalidLoginException;
 import com.revature.model.BankAccount;
 
 /**
@@ -10,22 +11,18 @@ import com.revature.model.BankAccount;
 
 public interface BankAccountRepository {
 	
-	public boolean insert(BankAccount user);
-	
-	/**
-	 * Inserts a new user in the database using a CallableStatement
-	 * (Stored Procedure)
-	 */
-	
-	
-	public BankAccount findByFirstName(String firstName);
+	public boolean insert(BankAccount account);
 
 	/**
-	 * Select all celebrities from the database.
+	 * Select all accounts from the database.
 	 */
 	
 	public Set<BankAccount> selectAll();
+	
+	public long getUser(String userName, String passWord) throws InvalidLoginException;
+
 }
+
 
 	
 

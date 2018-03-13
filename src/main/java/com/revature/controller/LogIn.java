@@ -1,15 +1,10 @@
 package com.revature.controller;
 
 
-import java.util.HashMap;
 import java.util.Scanner;
 
-import org.apache.log4j.Logger;
-
 import com.revature.exception.InvalidLoginException;
-import com.revature.model.BankAccount;
 import com.revature.repository.BankAccountRepositoryJdbc;
-import com.revature.util.ConnectionUtil;
 
 
 public class LogIn {

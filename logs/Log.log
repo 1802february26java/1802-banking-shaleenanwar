@@ -117,3 +117,104 @@ PL/SQL: Statement ignored
 2018-03-12 14:54:42 TRACE BankAccountRepositoryJdbc:143 - CustID inserted correctly
 2018-03-12 15:04:35 TRACE BankAccountRepositoryJdbc:129 - Getting all Users
 2018-03-12 15:04:37 TRACE BankAccountRepositoryJdbc:140 - Query executed successfully.
+2018-03-12 15:35:54 TRACE BankAccountRepositoryJdbc:131 - Getting all Users
+2018-03-12 15:35:56 TRACE BankAccountRepositoryJdbc:142 - Query executed successfully.
+2018-03-12 15:35:56 TRACE BankAccountRepositoryJdbc:145 - CustID inserted correctly
+2018-03-12 15:39:39 TRACE BankAccountRepositoryJdbc:131 - Getting all Users
+2018-03-12 15:39:40 TRACE BankAccountRepositoryJdbc:142 - Query executed successfully.
+2018-03-12 15:39:40 TRACE BankAccountRepositoryJdbc:145 - CustID inserted correctly
+2018-03-12 15:39:40 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 15:39:40 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 15:39:42 ERROR ConnectionUtil:38 - Error connection to database Database.recallBalance
+2018-03-12 15:40:48 TRACE BankAccountRepositoryJdbc:131 - Getting all Users
+2018-03-12 15:40:49 TRACE BankAccountRepositoryJdbc:142 - Query executed successfully.
+2018-03-12 15:40:49 TRACE BankAccountRepositoryJdbc:145 - CustID inserted correctly
+2018-03-12 15:40:49 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 15:40:49 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:28:01 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 16:28:02 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 16:28:02 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 16:28:02 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:28:03 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:28:03 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:28:03 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:28:12 TRACE ConnectionUtil:45 - Changing balance.
+2018-03-12 16:28:12 TRACE ConnectionUtil:50 - Connection successful
+2018-03-12 16:28:15 ERROR ConnectionUtil:60 - Error while updating queries.
+2018-03-12 16:30:20 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 16:30:21 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 16:30:21 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 16:30:21 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:30:21 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:30:21 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:30:21 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:30:26 TRACE ConnectionUtil:45 - Changing balance.
+2018-03-12 16:30:26 TRACE ConnectionUtil:50 - Connection successful
+2018-03-12 16:40:10 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 16:40:11 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 16:40:11 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 16:40:11 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:40:11 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:40:11 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:40:11 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:40:36 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 16:40:37 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 16:40:37 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 16:40:37 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:40:37 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:40:37 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:40:37 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:40:43 TRACE ConnectionUtil:45 - Changing balance.
+2018-03-12 16:40:43 TRACE ConnectionUtil:50 - Connection successful
+2018-03-12 16:51:03 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 16:51:03 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 16:51:03 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 16:51:11 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:51:11 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 16:52:33 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 16:52:34 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 16:52:34 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 16:52:38 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 16:52:39 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 17:15:08 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 17:15:47 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 17:16:06 ERROR ConnectionUtil:40 - Couldn't connect to the database
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:673)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:715)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:385)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:30)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:564)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.revature.util.ConnectionUtil.getConnection(ConnectionUtil.java:24)
+	at com.revature.util.ConnectionUtil.main(ConnectionUtil.java:37)
+Caused by: oracle.net.ns.NetException: The Network Adapter could not establish the connection
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:445)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:464)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:594)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:229)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1360)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:486)
+	... 8 more
+Caused by: java.net.UnknownHostException: myassignments.cmk37qx2dyp6.us-east-1.rds.amazonaws.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:117)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:133)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:411)
+	... 13 more
+2018-03-12 19:37:51 INFO  ConnectionUtil:38 - Connection successful
+2018-03-12 19:38:24 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 19:38:25 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 19:38:25 TRACE BankAccountRepositoryJdbc:168 - CustID inserted correctly
+2018-03-12 19:38:37 TRACE ConnectionUtil:20 - Getting balance.
+2018-03-12 19:38:37 TRACE ConnectionUtil:24 - Connection Successful
+2018-03-12 19:39:07 TRACE BankAccountRepositoryJdbc:154 - Getting all Users
+2018-03-12 19:39:08 TRACE BankAccountRepositoryJdbc:165 - Query executed successfully.
+2018-03-12 19:49:16 TRACE BankAccountRepositoryJdbc:67 - Getting all Accounts
+2018-03-12 19:49:19 INFO  BankAccountRepositoryJdbc:128 - [BankAccount [accountNumber=101, firstName=Michael, lastName=Jackson, userName=MJ, passWord=r2d2, balance=52.0], BankAccount [accountNumber=102, firstName=Beyonce, lastName=Knowles, userName=BK, passWord=4by4, balance=60.5]]
