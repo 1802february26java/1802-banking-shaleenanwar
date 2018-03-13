@@ -18,8 +18,8 @@ public class Main {
 
 	public static void main(String[] args) throws InvalidLoginException, InvalidInputException {
 
-//		Scanner scanner = new Scanner(System.in);
-		long accountNumber;
+
+		int accountNumber;
 
 		try {
 			accountNumber = LogIn.login();
@@ -33,7 +33,7 @@ public class Main {
 		
 		switch (b){
 		case 1:
-			BankMenu.viewBalance(accountNumber);	
+			BankMenu.viewBalance(accountNumber);
 			break;
 		case 2:
 			BankMenu.withdrawFunds(accountNumber);

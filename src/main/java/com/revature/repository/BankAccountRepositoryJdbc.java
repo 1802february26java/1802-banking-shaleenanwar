@@ -59,7 +59,7 @@ public class BankAccountRepositoryJdbc implements BankAccountRepository {
 		return false;
 	}
 
-		@Override
+		
 		public Set<BankAccount> selectAll() {
 			logger.trace("Getting all Accounts");
 			try(Connection connection = ConnectionUtil.getConnection()){
@@ -90,9 +90,9 @@ public class BankAccountRepositoryJdbc implements BankAccountRepository {
 		}
 		
 	
-		public long getUser(String userName, String passWord) throws InvalidLoginException{
+		public static int getUser(String userName, String passWord) throws InvalidLoginException{
 			logger.trace("Getting all Accounts");
-			long accountNumber = 0;
+			int accountNumber = 0;
 			try(Connection connection = ConnectionUtil.getConnection()){
 				String sql = "SELECT B_ACCOUNT_NUMBER FROM BANKACCOUNT WHERE B_USER_NAME = ? AND B_PASS_WORD = ?";
 				
@@ -104,7 +104,7 @@ public class BankAccountRepositoryJdbc implements BankAccountRepository {
 				ResultSet result = statement.executeQuery();
 				logger.trace("Query executed successfully.");
 				while(result.next()){
-					accountNumber = result.getLong("B_ACCOUNT_NUMBER");
+					accountNumber = result.getInt("B_ACCOUNT_NUMBER");
 					logger.trace("AccountNumber inserted correctly");
 				}
 				return accountNumber;
@@ -127,5 +127,6 @@ public class BankAccountRepositoryJdbc implements BankAccountRepository {
 //			logger.info(repository.selectAll());
 
 		}
+		
 	}
 

@@ -28,7 +28,7 @@ public class BankMenu {
 		return option;
 	}
 	
-	public static double viewBalance(long accountNumber) throws InvalidInputException{
+	public static double viewBalance(int accountNumber) throws InvalidInputException{
 		double balance;
 		try{
 			balance = DatabaseAccess.getBalance(accountNumber);

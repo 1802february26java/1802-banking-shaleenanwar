@@ -11,11 +11,11 @@ public class LogIn {
 	
 	static Scanner scanner = new Scanner(System.in);
 	
-	public static long login() throws InvalidLoginException{
+	public static int login() throws InvalidLoginException{
 		String userName = "";
 		String passWord = "";
 		String[] userCredentials = {userName, passWord};
-		long accountNumber = 0;
+		int accountNumber = 0;
 
 		BankAccountRepositoryJdbc repository = new BankAccountRepositoryJdbc();
 
